@@ -12,17 +12,17 @@ let g:solarized_visibility="high"  " Make whitespace more visible
 set listchars=tab:>-,trail:.       " Whitespace characters to highlight
 set list
 let python_highlight_all=1
-colorscheme solarized
+colorscheme ir_black
 
 " Disable arrow keys.
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
-imap <up> <nop>
-imap <down> <nop>
-imap <left> <nop>
-imap <right> <nop>
+"map <up> <nop>
+"map <down> <nop>
+"map <left> <nop>
+"map <right> <nop>
+"imap <up> <nop>
+"imap <down> <nop>
+"imap <left> <nop>
+"imap <right> <nop>
 
 " General options
 set nocompatible           " Vim goodies
