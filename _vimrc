@@ -12,7 +12,7 @@ let g:solarized_visibility="high"  " Make whitespace more visible
 set listchars=tab:>-,trail:.       " Whitespace characters to highlight
 set list
 let python_highlight_all=1
-colorscheme ir_black
+"colorscheme ir_black
 
 " Disable arrow keys.
 "map <up> <nop>
@@ -63,5 +63,5 @@ endif
 
 " <F2> Turn off autoindent while pasting.
 nnoremap <F2> :set invpaste paste?<CR>
-set pastetoggle=<F2>
+set pastetoggle=<C-p>
 
