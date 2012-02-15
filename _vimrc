@@ -71,3 +71,12 @@ set mouse=a
 
 " Save undo history in a file
 set undofile
+
+" Map center the screen to the space bar
+nmap <space> zz
+nmap n nzz
+nmap N Nzz
+
+" Screen always center
+"set scrolloff=1000
+
