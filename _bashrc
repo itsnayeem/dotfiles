@@ -51,6 +51,11 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+# some more ls aliases
+ alias ll='ls -alFh'
+ alias la='ls -A'
+ alias l='ls -CF'
+
 # virtualenvwrapper
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
     WORKON_HOME=$HOME/development/environments
