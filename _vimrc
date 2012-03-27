@@ -78,7 +78,7 @@ nmap n nzz
 nmap N Nzz
 
 " Insert mode key mappings
-imap <C-i> <Esc>
+imap <C-f> <Esc>
 
 " Screen always center
 set scrolloff=1000
