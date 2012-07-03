@@ -12,7 +12,7 @@ let g:solarized_visibility="high"  " Make whitespace more visible
 set listchars=tab:>-,trail:.       " Whitespace characters to highlight
 set list
 let python_highlight_all=1
-"colorscheme ir_black
+colorscheme ir_black
 
 " Disable arrow keys.
 "map <up> <nop>

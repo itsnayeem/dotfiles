@@ -1,9 +1,10 @@
 [user]
-        name = Ray Thompson
-        email = ray@getpantheon.com
+        name = Shah Nayeem El-Rahman
+        email = shah@getpantheon.com
 [color]
         diff = auto
         status = auto
         branch = auto
         ui = auto
-
+[core]
+	excludefiles = /Users/itsnayeem/.gitignore_global
