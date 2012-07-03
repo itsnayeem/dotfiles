@@ -56,11 +56,6 @@ set writebackup                    " Make backup of original when writing
 set backupdir=~/.vim/tmp/backup//  " // will keep path in backup/swap name
 set directory=~/.vim/tmp/swap//
 
-" show a line at column 79
-if exists("&colorcolumn")
-    set colorcolumn=79
-endif
-
 " <F2> Turn off autoindent while pasting.
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<C-p>
