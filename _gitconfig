@@ -1,10 +1,10 @@
 [user]
         name = Shah Nayeem El-Rahman
-        email = shah@getpantheon.com
+        email = itsnayeem@gmail.com
 [color]
         diff = auto
         status = auto
         branch = auto
         ui = auto
 [core]
-	excludefiles = /Users/itsnayeem/.gitignore_global
+        excludefiles = /Users/itsnayeem/.gitignore_global
