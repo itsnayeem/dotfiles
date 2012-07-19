@@ -8,3 +8,4 @@
         ui = auto
 [core]
         excludesfile = /root/.gitignore_global
+        editor = vim
