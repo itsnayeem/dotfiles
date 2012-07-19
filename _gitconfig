@@ -7,4 +7,4 @@
         branch = auto
         ui = auto
 [core]
-        excludefiles = /Users/itsnayeem/.gitignore_global
+        excludesfile = /root/.gitignore_global
