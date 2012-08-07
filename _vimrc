@@ -65,7 +65,7 @@ set nu
 set mouse=a
 
 " Save undo history in a file
-set undofile
+"set undofile
 
 " Map center the screen to the space bar
 nmap <space> zz
