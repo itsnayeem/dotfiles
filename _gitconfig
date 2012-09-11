@@ -7,5 +7,5 @@
         branch = auto
         ui = auto
 [core]
-        excludesfile = /Users/shah/.gitignore_global
+        excludesfile = /root/.gitignore_global
         editor = vim
