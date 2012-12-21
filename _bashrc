@@ -1,4 +1,4 @@
-# If not running interactively, don't do anything
+
 [ -z "$PS1" ] && return
 
 # don't put duplicate lines in the history. See bash(1) for more options
@@ -75,8 +75,14 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
+. ~/dotfiles/git-completion.bash
+
 
 export CLICOLOR=1
 export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
-
+export JYTHON_HOME="/usr/lib/jython2.5.3"
+export JRUBY_HOME="/Library/Frameworks/JRuby.framework/Versions/Current/bin"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home"
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/opt/local/bin:/opt/local/sbin:$PATH:.:"
+export LUA_CFLAGS="/usr/local/Cellar/lua/5.1.4/lib/pkgconfig/lua.pc"
+export LUA_LIBS="/usr/local/Cellar/lua/5.1.4/lib/pkgconfig/lua.pc"
