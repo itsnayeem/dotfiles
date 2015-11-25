@@ -43,3 +43,5 @@ Thumbs.db
 *.project
 *.buildpath
 *.classpath
+
+*public_html/v3/v3framework/adtemplates
