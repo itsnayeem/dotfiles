@@ -1,17 +1,11 @@
 [user]
-	name = Shah El-Rahman
-	email = shah.elrahman@paperg.com
+	name = Nayeem
+	email = itsnayeem@gmail.com
 [color]
-        diff = auto
-        status = auto
-        branch = auto
-        ui = auto
+    diff = auto
+    status = auto
+    branch = auto
+    ui = auto
 [core]
-	excludesfile = /Users/shah/.gitignore_global
-        editor = vim
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+	excludesfile = /Users/itsnayeem/.gitignore_global
+    editor = vim
